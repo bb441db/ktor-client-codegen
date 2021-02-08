@@ -29,6 +29,7 @@ public class FooServiceImpl(
       append("/bar/")
       append(id)
     })
+    header("Accept", "application/json")
   }
 }
 ```
